@@ -1,0 +1,3 @@
+﻿  Multiple_derived_classes.cpp
+C:\MCode\Multiple_derived_classes\Multiple_derived_classes.cpp(22,17): warning C4244:  “return”: 从“double”转换到“float”，可能丢失数据
+  Multiple_derived_classes.vcxproj -> C:\MCode\Multiple_derived_classes\Debug\Multiple_derived_classes.exe
