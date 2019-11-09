@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>公司注册</h1>
+        <p>欢迎您的到来！！！</p>
+    </div>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">公司信息</h4>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body">
+                    <form class="row">
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">地址</span>
+                                <input id="address" name="address" type="text" class="form-control"  placeholder="Address" aria-describedby="basic-addon1">
+                            </div><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon2">用户名</span>
+                                <input id="name" name="name" type="text" class="form-control"  placeholder="Username" aria-describedby="basic-addon2">
+                            </div><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon3">电话</span>
+                                <input id="tel" name="tel" type="text" class="form-control"  placeholder="0812-18230338745" aria-describedby="basic-addon3">
+                            </div><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon4">负责人</span>
+                                <input id="manager" name="manager" type="text" class="form-control"  placeholder="Manager" aria-describedby="basic-addon4">
+                            </div><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon5">手机</span>
+                                <input id="phone" name="phone" type="text" class="form-control"  placeholder="phone" aria-describedby="basic-addon5">
+                            </div><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon6">联系人</span>
+                                <input id="people" name="people" type="text" class="form-control"  placeholder="People" aria-describedby="basic-addon6">
+                            </div><br/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
