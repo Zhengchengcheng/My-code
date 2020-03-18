@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="description" content="个人简历制作 & 编程">
+    <meta name="author" content="郑承承">
+    <title>个人简历</title>
+
+    <!--  引入外部CSS文件  -->
+    <link rel="stylesheet" href="css/resume.css" type="text/css"/>
+
+    <!--  JS代码域  -->
+    <script type="text/javascript">
+        var click = true;
+        function getImg(){
+            if(click){
+                var con = document.getElementById("img1");
+                con.style.transform="scale(8.0)";
+                click = false;
+            }else if(!click){
+                var con = document.getElementById("img1");
+                con.style.transform="scale(3.5)";
+                click=true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div id="main">
+
+    <div id="header">
+        <div id="header_name">姓名</div>
+        <div id="header_intention">求职意向:</div>
+        <div id="header_person">Personal resume</div>
+    </div>
+    <hr />
+    <hr />
+    <div id="first_tier">
+        <div id="first_tier_contents">
+            <h3>教育背景</h3>
+            <ul>
+                <li>2018-2022</li>
+                <li>河南科技大学</li>
+                <li>物联网工程专业</li>
+            </ul>
+            <br >
+            <p>主修课程：计算机组成原理、计算机网络、算法设计与分析、Java程序设计</p>
+        </div>
+        <img src="img/zcc.jpg" id="img1" style="transform: scale(3.5)" onclick="getImg()">
+    </div>
+
+    <hr id="hr2"/>
+
+    <div id="second_tier">
+        <div id="second_tier_contents">
+            <h3>技能证书</h3>
+            <ul>
+                <li>计算机二级</li>
+                <li>大学教师资格证</li>
+                <li>CET-4 CET-6 优秀的英语听说能力</li>
+            </ul>
+        </div>
+
+        <hr id="hr3"/>
+    </div>
+
+    <div id="third_tier">
+        <div id="third_tier_contents">
+            <h3>工作经历</h3>
+            <ul class="ex">
+                <li>2018-2022：河南科技大学</li>
+                <li>河南科技大学老师</li>
+            </ul>
+            <br >
+            <ul >
+                <li>1.负责英语教学工作，主要包括：语文文言文、拼写、语法等;</li>
+                <li>2.负责学生日常作业的布置和批改，了解学生的掌握程度，及时调整教学进度;</li>
+                <li>3.负责根据教委要求，按照教学提纲编写期中和期末考卷，考察学生掌握知识的程度;</li>
+                <li>4.负责对没有很好掌握课程的学生进行课外辅导;</li>
+                <li>5.负责准备公开课内容，参与日常教育研讨会等;</li>
+            </ul>
+
+            <ul class="ex">
+                <li>2023-2025：四川大学</li>
+                <li>四川大学老师</li>
+            </ul>
+            <br />
+            <ul>
+                <li>1.负责英语教学工作,主要包括：语文文言文、拼写、语法等;</li>
+                <li>2.负责学生日常作业的布置和批改，了解学生的掌握程度，及时调整教学进度;</li>
+                <li>3.负责根据教委要求，按照教学提纲编写期中和期末考卷，考察学生掌握知识的程度;</li>
+                <li>4.负责对没有很好掌握课程的学生进行课外辅导;</li>
+                <li>5.负责准备公开课内容，参与日常教育研讨会等;</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <hr id="hr4" />
+
+    <div id="fourth_tier">
+        <h3>自我评价</h3>
+
+        <p>本人于2022年在河南科技大学教育专业毕业，距今已有五年的时间，作为一名河南科技大学的教职工，在班主任工作方面有一定的经验和知识，下面就这几年的工作做一个鉴定，为自己以后发展到了做个借鉴。
+        </p>
+        <p>
+            热爱文学，具有一定的文学功底和良好的文学感知能力，能够深入体会文章的思想感情，感染，引领学生走入瑰丽的文学世界，以此丰富学生情感，提高学生思想水平，在根本上提升学生的阅读与写作能力。
+        </p>
+        <p>
+            对多门学科(历史、文化等)均有所涉猎，能够以此充实语文课堂。
+        </p>
+        <p>
+            爱学生。就必须善于走进学生的情感世界，就必须把学生当作朋友，去感受他们的喜怒哀乐，爱学生，要以尊重和以来为前提，要做到严中有爱、严中有章、严中有信、严中有度。我经常从小处着手，从学生关心的事寻求最佳教育实际，给学生春风沐浴板的教育。
+        </p>
+    </div>
+
+    <div id="foot">
+        <ul>
+            <li><img src="img/name.jpg" class="img">姓名:郑承承</li>
+            <li><img src="img/phone.jpg" class="img">15282805642</li>
+            <li><img src="img/location.jpg" class="img">四川省德阳市</li>
+            <li><img src="img/email.jpg" class="img">15282805642@163.com</li>
+            <li><img src="img/github.jpg" class="img">https://github.com/Zhengchengcheng</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

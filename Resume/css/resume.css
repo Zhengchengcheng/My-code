@@ -1,0 +1,81 @@
+/*声明网页基础样式*/
+*{margin: 0px;padding: 0px;}
+
+/*框架*/
+#main{width: 800px;height: 1050px;border: 1px solid black;margin: 0 auto; background-color:#FFF5EE;}
+
+/*头部*/
+#header{width: 100%;height: 100px;padding: 0px;float: left;}
+
+#header_name{float: left;font-size: 50px;font-family: "黑体";font-weight: bold;letter-spacing: 20px;margin-left: 50px;margin-top: 35px;margin-right: 40px;}
+
+#header_intention{float: left;font-size: 15px;font-family: "宋体";letter-spacing: 1px;margin-top: 50px;}
+
+#header_person{float: right;font-size: 75px;letter-spacing: -9px;font-family: "Microsoft JhengHei";color: #FFE4E1;margin-top: 5px;margin-right: 20px;}
+
+/*标签选择器*/
+hr{margin-left:30px;width: 750px;height: 1px;background-color: RED; float: left;margin-bottom: 5px;}
+
+/*第一段落*/
+#first_tier{width: 100%;height: 130px;float: left;}
+
+#first_tier_contents{width: 600px;height: 100px;float: left;margin-top: 40px;}
+
+#first_tier_contents h3{margin-left: 30px;font-size: 18px;margin-bottom:5px;color: #FA8072;}
+
+#first_tier_contents ul{margin-left: 30px;margin-bottom: 5px;}
+
+#first_tier_contents li{list-style-type: none;float: left;margin-right: 40px;}
+
+#first_tier_contents p{margin-left: 30px;font-size: 14px;margin-top: 5px;}
+
+#first_tier img{width: 45px;border: 1px solid red;border-radius: 50px;margin-top: 75px;}
+
+#hr2{float: left;margin-left: 30px;width: 500px;border:none;background-color: #FFF5EE;border-top: dashed red;}
+
+/*第二段落*/
+#second_tier{width: 100%;height: 115px;float: left;}
+
+#second_tier_contents{width: 600px;height: 110px;float: left;margin-top: 20px;}
+
+#second_tier_contents h3{margin-left: 30px;font-size: 18px;font-weight:bold;margin-bottom: 5px;}
+
+#second_tier_contents ul{margin-left: 30px;margin-top: 5px;}
+
+#second_tier_contents li{list-style-type: none; font-size: 14px;margin-top: 5px;}
+
+#hr3{float: left;margin-left: 30px;width: 750px;border: none;background-color: #FFF5EE;border-top: dashed red;}
+
+/*第三段落*/
+#third_tier{width: 100%;height: 340px;float: left;}
+
+#third_tier_contents{width: 600px;height: 320px;float: left;margin-top: 20px;}
+
+#third_tier_contents h3{margin-left: 30px;font-size: 18px;color:#FA8072;margin-top: 10px;}
+
+#third_tier_contents li{font-size: 14px;margin-top: 5px; list-style-type: none;}
+
+#third_tier_contents ul{margin-left: 30px;margin-top: 5px;}
+
+.ex{margin-left: 30px;margin-top: 5px;}
+
+.ex li{list-style-type: none;float: left;margin-right: 35px;color: #FA8072;}
+
+#hr4{float: left;margin-left: 30px;width: 750px;margin-bottom:5px;margin-top:5px;border: none;background-color:#FFF5EE;border-top: dashed red;}
+
+/*第四段落*/
+#fourth_tier{width: 100%;height: 265px;float: left;}
+
+#fourth_tier h3{margin-left: 30px;font-size: 18px;color:#FA8072;margin-top: 5px;}
+
+#fourth_tier p{margin-left: 30px;font-size: 14px; margin-right: 18px; line-height: 22px;}
+
+/*结尾处设置*/
+.img{width: 17px;border-radius: 50px;}
+
+#foot{height: 60px; width: 90%;float: left;background-color:#FF3300; margin-left: 30px;position: relative;}
+
+#foot ul{ margin-left: 50px; margin-top: 15px;}
+
+#foot ul li{list-style-type: none; float: left; font-size: 13px; margin-right: 50px;}
+
